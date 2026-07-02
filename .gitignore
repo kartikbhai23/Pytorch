@@ -1,0 +1,24 @@
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+
+# Large dataset files (optional - we can keep fmnist_small.csv if required, but let's not ignore it if user has already put it in workspace)
+# if they want to push it, we keep it. fmnist_small.csv is 13MB which is fine for GitHub.
